@@ -41,4 +41,94 @@
   @media(orientation: landscape)
   {
 
+    .year-boxes {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      grid-gap: 20px; 
   }
+  
+  .year-box {
+      background-color: #ddd;
+      padding: 20px;
+      text-align: center;
+      overflow: auto; /* Adds a scroll when overflowing */
+      max-height: 200px;
+      border: 1px solid #ccc; /* Maybe add a border for visual clarity */
+      padding: 10px; /* Add padding for spacing */
+      color:#000
+}
+
+/* Style the header */
+.year-box h3 {
+  position: sticky;
+  top: 0;
+  background-color: #ddd;
+  padding: 10px;
+  margin: 0;
+}
+
+ body {
+  background-color: #000;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+}
+
+.year-box:hover {
+  filter: brightness(150%);
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  font-size: 28px;
+  color: white;
+  text-decoration: none; /* Too remove default underline */
+  font-weight: bold;
+  text-align: center;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.navlist li {
+  padding: 20px;
+  list-style-type: none;
+  text-align: center;
+}
