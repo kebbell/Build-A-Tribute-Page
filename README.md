@@ -1,3 +1,4 @@
-# Build-A-Tribute-Page
-FreeCodeCamp.com Responsive Web Design Certification Project - "Build A Tribute Page"
-https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page
+My updated edits to this Tribute page.
+You can find updates to the CSS layout as well as functional Javascript when scrolling on the year boxes.
+
+Enjoy!
